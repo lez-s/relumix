@@ -226,7 +226,6 @@ def run_inference(args, device, model, batch):
             pred_samples = []
 
             for sample_idx in range(args.num_samples):    
-                # 执行完整视频的去噪循环
                 video_dict = model.sample_video(
                     batch, enter_ema=False, limit_batch=False)
 
