@@ -30,8 +30,10 @@ Key dependencies include:
 ## Quick Start
 
 ### Method 1: Interactive Gradio Interface (Recommended for single videos)
-By default, infer 14 frames on a 32GBnteractive video relighting:
-444
+By default, infer 14 frames on a 32GB.
+
+Interactive video relighting:
+
 ```bash
 bash run_relumix_gradio.sh
 ```
@@ -44,6 +46,7 @@ This will start a web server at `http://localhost:7881` where you can:
 
 ### Method 2: Batch Processing (For multiple videos)
 By default, infer 61 frames on a 80GB GPU.
+
 For batch processing multiple videos, use the command-line interface:
 
 ```bash
