@@ -1,6 +1,6 @@
 
 # Relumix: Video Relighting with Reference Frame
-
+[project page](https://lez-s.github.io/Relumix_project/) [arXiv](https://www.arxiv.org/abs/2509.23769)
 Relumix is a powerful video relighting tool that uses a fine-tuned video diffusion model to relight videos based on a reference frame. Upload a video and a reference frame showing the desired lighting condition, and the model will generate a relit version of the entire video.
 
 ## Requirements
